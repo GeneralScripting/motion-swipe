@@ -60,7 +60,7 @@
         // [self addSubview:date];
         // [self addSubview:category];
 
-        overlayView = [[OverlayView alloc]initWithFrame:CGRectMake(self.frame.size.width/2-100, 0, 100, 100)];
+        overlayView = [[OverlayView alloc]initWithFrame:CGRectMake(self.frame.size.width/2-50, self.frame.size.height/10, 100, 100)];
         overlayView.alpha = 0;
         [self addSubview:overlayView];
     }
